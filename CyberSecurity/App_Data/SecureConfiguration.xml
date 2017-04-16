@@ -5,14 +5,14 @@
     <QuestionType>Secure Configuration</QuestionType>
     <QuestionContent>Are you aware of Secure Configuration?</QuestionContent>
     <QuestionPriority>1</QuestionPriority>
-    <QuestionAnswer>true</QuestionAnswer>
+    <QuestionAnswer>false</QuestionAnswer>
   </Question>
   <Question>
     <QuestionID>2</QuestionID>
     <QuestionType>Secure Configuration</QuestionType>
     <QuestionContent>Have you implemented any policies against Secure Configuration treats?</QuestionContent>
     <QuestionPriority>1</QuestionPriority>
-    <QuestionAnswer>true</QuestionAnswer>
+    <QuestionAnswer>false</QuestionAnswer>
   </Question>
   <Question>
     <QuestionID>2</QuestionID>
@@ -26,7 +26,7 @@
     <QuestionType>Secure Configuration</QuestionType>
     <QuestionContent>Have you implemented any policies against Secure Configuration treats?</QuestionContent>
     <QuestionPriority>1</QuestionPriority>
-    <QuestionAnswer>true</QuestionAnswer>
+    <QuestionAnswer>false</QuestionAnswer>
   </Question>
   <Question>
     <QuestionID>4</QuestionID>

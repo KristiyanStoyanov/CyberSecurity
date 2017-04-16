@@ -12,27 +12,27 @@
     <QuestionType>Patch Management</QuestionType>
     <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
     <QuestionPriority>1</QuestionPriority>
-    <QuestionAnswer>true</QuestionAnswer>
+    <QuestionAnswer>false</QuestionAnswer>
   </Question>
   <Question>
     <QuestionID>2</QuestionID>
     <QuestionType>Patch Management</QuestionType>
     <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
     <QuestionPriority>1</QuestionPriority>
-    <QuestionAnswer>true</QuestionAnswer>
+    <QuestionAnswer>false</QuestionAnswer>
   </Question>
   <Question>
     <QuestionID>3</QuestionID>
     <QuestionType>Patch Management</QuestionType>
     <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
     <QuestionPriority>1</QuestionPriority>
-    <QuestionAnswer>true</QuestionAnswer>
+    <QuestionAnswer>false</QuestionAnswer>
   </Question>
   <Question>
     <QuestionID>4</QuestionID>
     <QuestionType>Patch Management</QuestionType>
     <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
     <QuestionPriority>1</QuestionPriority>
-    <QuestionAnswer>true</QuestionAnswer>
+    <QuestionAnswer>false</QuestionAnswer>
   </Question>
 </Questions>

@@ -1,9 +1,0 @@
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\bin\Debug\SQLSaintPeters.dacpac
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\bin\Debug\SQLSaintPeters.dll
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\bin\Debug\SQLSaintPeters.pdb
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\obj\Debug\SQLSaintPeters.dll
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\obj\Debug\SQLSaintPeters.pdb
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\obj\Debug\Model.xml
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\obj\Debug\refactor.xml
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\obj\Debug\postdeploy.sql
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\SQLSaintPeters\obj\Debug\predeploy.sql

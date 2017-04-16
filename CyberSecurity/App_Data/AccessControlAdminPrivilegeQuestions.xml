@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Question>
+    <QuestionID>1</QuestionID>
+    <QuestionType>AccessControlAdminPrivilege</QuestionType>
+    <QuestionContent>Are you aware of AccessControlAdminPrivilege?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>false</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>2</QuestionID>
+    <QuestionType>AccessControlAdminPrivilege</QuestionType>
+    <QuestionContent>Have you implemented any policies against AccessControlAdminPrivilege?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>false</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>2</QuestionID>
+    <QuestionType>AccessControlAdminPrivilege</QuestionType>
+    <QuestionContent>Have you implemented any policies against AccessControlAdminPrivilege?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>false</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>3</QuestionID>
+    <QuestionType>AccessControlAdminPrivilege</QuestionType>
+    <QuestionContent>Have you implemented any policies against AccessControlAdminPrivilege?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>false</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>4</QuestionID>
+    <QuestionType>AccessControlAdminPrivilege</QuestionType>
+    <QuestionContent>Have you implemented any policies against AccessControlAdminPrivilege?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>false</QuestionAnswer>
+  </Question>
+</Questions>

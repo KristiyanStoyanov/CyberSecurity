@@ -23,7 +23,7 @@ namespace CyberSecurity.Controllers
 
             var data = readXml.ReturnListOfQuestions();
 
-            return View(data);
+            return View(data.ToList());
         }
 
         public ActionResult SecureConfigurationQuestion()
@@ -33,7 +33,7 @@ namespace CyberSecurity.Controllers
 
             var data = readXml.ReturnListOfQuestions();
 
-            return View(data);
+            return View(data.ToList());
         }
 
         public ActionResult PatchManagementQuestions()
@@ -43,7 +43,17 @@ namespace CyberSecurity.Controllers
 
             var data = readXml.ReturnListOfQuestions();
 
-            return View(data);
+            return View(data.ToList());
+        }
+
+        public ActionResult AccessControlAdminPrivilegeQuestions()
+        {
+
+            AccessControlAdminPrivilegeViewModel readXml = new AccessControlAdminPrivilegeViewModel();
+
+            var data = readXml.ReturnListOfQuestions();
+
+            return View(data.ToList());
         }
 
     }

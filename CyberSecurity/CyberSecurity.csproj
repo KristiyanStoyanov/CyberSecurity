@@ -93,6 +93,7 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\AccessControlAdminPrivilegeQuestions.xml" />
     <Content Include="App_Data\PatchManagementQuestions.xml" />
     <Content Include="App_Data\SecureConfiguration.xml" />
     <Content Include="App_Data\MyDatabase.mdf" />
@@ -146,6 +147,7 @@
     <Content Include="Views\Question\MalwareQuestion.cshtml" />
     <Content Include="Views\Question\SecureConfigurationQuestion.cshtml" />
     <Content Include="Views\Question\PatchManagementQuestions.cshtml" />
+    <Content Include="Views\Question\AccessControlAdminPrivilegeQuestions.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

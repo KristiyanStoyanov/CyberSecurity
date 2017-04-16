@@ -66,7 +66,7 @@ namespace CyberSecurity.Models
 
     public class PatchManagementViewModel: QuestionBusinessObject
     {
-        public List<PatchManagementViewModel> ReturnListOfQuestions()
+        public List<PatchManagementViewModel> ReturnListOfQuestions ()
         {
             string xmlData = HttpContext.Current.Server.MapPath("~/App_Data/PatchManagementQuestions.xml");
             DataSet ds = new DataSet();
@@ -85,5 +85,27 @@ namespace CyberSecurity.Models
         }
     }
 
+    public class AccessControlAdminPrivilegeViewModel : QuestionBusinessObject
+    {
+        public List<AccessControlAdminPrivilegeViewModel> ReturnListOfQuestions()
+        {
+            string xmlData = HttpContext.Current.Server.MapPath("~/App_Data/AccessControlAdminPrivilegeQuestions.xml");
+            DataSet ds = new DataSet();
+            ds.ReadXml(xmlData);
+            var questions = new List<AccessControlAdminPrivilegeViewModel>();
+            questions = (from rows in ds.Tables[0].AsEnumerable()
+                         select new AccessControlAdminPrivilegeViewModel
+                         {
+                             QuestionID = Convert.ToInt32(rows[0].ToString()),
+                             QuestionType = rows[1].ToString(),
+                             QuestionContent = rows[2].ToString(),
+                             QuestionPriority = rows[3].ToString(),
+                             QuestionCheckBox = Convert.ToBoolean(rows[4]),
+                         }
+                         ).ToList();
 
+            return questions;
+
+        }
     }
+}
