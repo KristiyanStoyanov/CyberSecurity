@@ -30,4 +30,3 @@ C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\CyberSecu
 C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\CyberSecurity\bin\System.Web.Mvc.xml
 C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\CyberSecurity\obj\Debug\CyberSecurity.dll
 C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\CyberSecurity\obj\Debug\CyberSecurity.pdb
-C:\Users\Kristiyan\Documents\Visual Studio 2015\Projects\CyberSecurity\CyberSecurity\obj\Debug\CyberSecurity.csprojResolveAssemblyReference.cache

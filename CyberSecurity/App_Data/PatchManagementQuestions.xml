@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Question>
+    <QuestionID>1</QuestionID>
+    <QuestionType>Patch Management</QuestionType>
+    <QuestionContent>Are you aware of Patch Management?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>false</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>2</QuestionID>
+    <QuestionType>Patch Management</QuestionType>
+    <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>true</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>2</QuestionID>
+    <QuestionType>Patch Management</QuestionType>
+    <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>true</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>3</QuestionID>
+    <QuestionType>Patch Management</QuestionType>
+    <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>true</QuestionAnswer>
+  </Question>
+  <Question>
+    <QuestionID>4</QuestionID>
+    <QuestionType>Patch Management</QuestionType>
+    <QuestionContent>Have you implemented any policies against Patch Management?</QuestionContent>
+    <QuestionPriority>1</QuestionPriority>
+    <QuestionAnswer>true</QuestionAnswer>
+  </Question>
+</Questions>

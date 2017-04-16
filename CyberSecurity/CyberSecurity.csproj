@@ -93,10 +93,13 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\PatchManagementQuestions.xml" />
+    <Content Include="App_Data\SecureConfiguration.xml" />
     <Content Include="App_Data\MyDatabase.mdf" />
     <Content Include="App_Data\MyDatabase_log.ldf">
       <DependentUpon>MyDatabase.mdf</DependentUpon>
     </Content>
+    <Content Include="App_Data\MalwareQuestions.xml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -113,11 +116,13 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AssessmentBusinessObject.cs" />
+    <Compile Include="Interfaces\IQuestion.cs" />
+    <Compile Include="Models\QuestionBusinessObject.cs" />
     <Compile Include="Models\UserBusinessObject.cs" />
     <Compile Include="Models\UserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -138,6 +143,9 @@
     <Content Include="Views\User\RegistrationForm.cshtml" />
     <Content Include="Views\User\ResetPasswordForm.cshtml" />
     <Content Include="Views\User\ReportGenerator.cshtml" />
+    <Content Include="Views\Question\MalwareQuestion.cshtml" />
+    <Content Include="Views\Question\SecureConfigurationQuestion.cshtml" />
+    <Content Include="Views\Question\PatchManagementQuestions.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -157,7 +165,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1140</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

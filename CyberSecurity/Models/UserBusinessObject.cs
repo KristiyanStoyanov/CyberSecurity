@@ -15,7 +15,5 @@ namespace CyberSecurity.Models
 
         public char userPassword { get; set; }
 
-
-       
     }
 }

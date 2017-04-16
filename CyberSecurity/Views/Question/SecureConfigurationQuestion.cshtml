@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "MalwareQuestion";
+}
+
+<h2>MalwareQuestion</h2>
+
+
+@using CyberSecurity;
+@model IEnumerable<CyberSecurity.Models.QuestionBusinessObject>
+
+
+
+
+<div class="col-lg-8">
+    <table class="table table-bordered">
+        <tr>
+            <th class="alert-info">Number</th>
+            <th class="alert-info">Question type</th>
+            <th class="alert-info">Question content</th>
+            <th class="alert-danger">Priority</th>
+            <th class="alert-danger">If applied please tick</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuestionID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuestionType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuestionContent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuestionPriority)
+                </td>
+                <td>
+                    @Html.CheckBoxFor(modelItem => item.QuestionCheckBox)
+                </td>
+            </tr>
+        }
+    </table>
+    <btn class="btn-primary">Submit</btn>
+</div>
