@@ -17,7 +17,7 @@ namespace CyberSecurity.Models
         public int QuestionID { get; set; }
         public string QuestionType { get; set; }
         public string QuestionContent { get; set; }
-        public string QuestionPriority { get; set; }
+        public int QuestionPriority { get; set; }
         public bool QuestionCheckBox { get; set; }
 
     }
@@ -36,7 +36,7 @@ namespace CyberSecurity.Models
                              QuestionID = Convert.ToInt32(rows[0].ToString()),
                              QuestionType = rows[1].ToString(),
                              QuestionContent = rows[2].ToString(),
-                             QuestionPriority = rows[3].ToString(),
+                             QuestionPriority = QuestionPriority = Convert.ToInt32(rows[3].ToString()),
                              QuestionCheckBox = Convert.ToBoolean(rows[4]),
                          }).ToList();
                             return questions;
@@ -56,7 +56,7 @@ namespace CyberSecurity.Models
                              QuestionID = Convert.ToInt32(rows[0].ToString()),
                              QuestionType = rows[1].ToString(),
                              QuestionContent = rows[2].ToString(),
-                             QuestionPriority = rows[3].ToString(),
+                             QuestionPriority = QuestionPriority = Convert.ToInt32(rows[3].ToString()),
                              QuestionCheckBox = Convert.ToBoolean(rows[4]),
                          }).ToList();
 
@@ -78,7 +78,7 @@ namespace CyberSecurity.Models
                              QuestionID = Convert.ToInt32(rows[0].ToString()),
                              QuestionType = rows[1].ToString(),
                              QuestionContent = rows[2].ToString(),
-                             QuestionPriority = rows[3].ToString(),
+                             QuestionPriority = Convert.ToInt32(rows[3].ToString()),
                              QuestionCheckBox = Convert.ToBoolean(rows[4]),
                          }).ToList();
             return questions;
@@ -99,7 +99,7 @@ namespace CyberSecurity.Models
                              QuestionID = Convert.ToInt32(rows[0].ToString()),
                              QuestionType = rows[1].ToString(),
                              QuestionContent = rows[2].ToString(),
-                             QuestionPriority = rows[3].ToString(),
+                             QuestionPriority = Convert.ToInt32(rows[3].ToString()),
                              QuestionCheckBox = Convert.ToBoolean(rows[4]),
                          }
                          ).ToList();
