@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecurity", "CyberSecur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSecurity.Tests", "CyberSecurity.Tests\CyberSecurity.Tests.csproj", "{0DF89F78-C58E-473E-9B83-907ABD466D2C}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLSaintPeters", "SQLSaintPeters\SQLSaintPeters.sqlproj", "{B3AE3F18-0CD8-453B-8339-6F74846C50E1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +21,6 @@ Global
 		{0DF89F78-C58E-473E-9B83-907ABD466D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF89F78-C58E-473E-9B83-907ABD466D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF89F78-C58E-473E-9B83-907ABD466D2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3AE3F18-0CD8-453B-8339-6F74846C50E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3AE3F18-0CD8-453B-8339-6F74846C50E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3AE3F18-0CD8-453B-8339-6F74846C50E1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{B3AE3F18-0CD8-453B-8339-6F74846C50E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3AE3F18-0CD8-453B-8339-6F74846C50E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3AE3F18-0CD8-453B-8339-6F74846C50E1}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
